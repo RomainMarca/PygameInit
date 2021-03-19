@@ -16,7 +16,7 @@ pygame.display.set_caption("My first Pygame App")
 # Création de la surface 
 screen = pygame.display.set_mode(resolution, pygame.RESIZABLE)
 
-#Passage de la couleur sur screen
+#Passage de la couleur a screen
 screen.fill(blue_color)
 
 #Dessin d'une ligne (surface, color, position dep, position arr, bordure)
@@ -40,7 +40,6 @@ pygame.display.flip()
 
 # Boucle infinit pour la surface
 launched = True
-
 while launched:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
